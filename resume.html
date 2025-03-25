@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // this is the JavaScript to populate the date
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("current-date").textContent = new Date().toDateString();
+            console.log("Resume page loaded successfully.");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Guillermo Barreto</h1>
+        <p><em>Software Engineer|Web Developer</em></p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="cover-letter.html">Cover-Letter</a></li>
+            <li><a href="career-goals.html">Career-Goals</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> guilleelias25@Gmail.com</p>
+            <p><strong>Phone:</strong> 708-2626650</p>
+        </section>
+        
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>SQL, Java</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Education</h2>
+            <table>
+                <caption>Educational Background</caption>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    
+                </tr>
+                <tr>
+                    <td>Bachelor's in Software Engineeringg</td>
+                    <td>Western Governors University</td>
+                    <td>2026</td>
+                
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Amazon - Associate Tier 1</h3>
+                <p><strong>Dates:</strong> Jul 2022 - Present</p>
+                <p>Responsible for managing inventory, ensuring package accuracy, and supporting logistics operations.</p>
+            </article>
+            <article>
+                <h3>Freelance Software Engineer</h3>
+                <p><strong>Dates:</strong> 2022 - Present</p>
+                <p>Designed and developed websites and applications for small businesses and non-profits.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <hr>
+        <p>WGU Web Development Foundations D276</p>
+        <div id="current-date"></div>
+    </footer>
+</body>
+</html>

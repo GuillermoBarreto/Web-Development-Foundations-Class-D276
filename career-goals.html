@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career-Goals</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Career Goals</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="cover-letter.html">Cover-Letter</a></li>
+            <li><a href="career-goals.html">Career-Goals</a></li>
+        </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>My Vision for the Future</h2>
+                <p>My ultimate goal is to become a <strong>Software Engineer</strong> at <mark>Amazon</mark>. I am passionate about building scalable web applications and optimizing user experiences through efficient coding practices.</p>
+
+                <h3>Inspiration</h3>
+                <img src="Images/Roadmapwgu.jpg.png" alt="Career Growth Path" width="600">
+            </section>
+
+            <h2>Motivational Audio</h2>
+            <audio controls>
+                <source src="media/DO IT FOR YOU - Motivational Speech.mp3" type="audio/mp3">
+
+            </audio>
+            <section>
+
+                <h2>Career Journey</h2>
+                <video width="600" controls>
+                    <source src="media/videoplayback.mp4" type="video/mp4">
+    
+                </video>
+            </section>
+
+            <section>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <h2>Contact Me</h2>
+                <label for="first-name">First-Name</label>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required><br><br>
+                
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company"><br><br>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+            
+                <fieldset>
+                    <legend>Best Contact Time:</legend>
+                    <input type="radio" id="am" name="contact-time" value="AM" required>
+                    <label for="am">A.M.</label>
+                    <input type="radio" id="pm" name="contact-time" value="PM">
+                    <label for="pm">P.M.</label>
+                    <input type="radio" id="anytime" name="contact-time" value="Anytime">
+                    <label for="anytime">Anytime</label>
+                </fieldset><br>
+            
+            <label for="contact-method">Preferred Contact Method:</label>
+            <select id="contact-method" name="contact-method" required>
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+                <option value="text">Text</option>
+            </select><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>WGU Web Development Foundations D276</p>
+    <div id="current-date"></div>
+</footer>
+</body>
+</html>
